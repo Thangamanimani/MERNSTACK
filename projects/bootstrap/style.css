@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1{
+    color:red;
+    font-family: "lobstar",sans-serif;
+    
+} */
+ /* navbar section start */
+ .navbar-brand{
+    font-family: "lobster" ,"sans-serif";
+   font-size: 32px !important;
+    
+ }
+ .navbar-brand:hover{
+    color: red !important;
+ }
+ .nav-link{
+    text-transform: uppercase;
+    margin: 6px 10px;
+ }
+ .nav-link:hover{
+    color: red !important;
+    cursor: pointer;
+ }
+
+.search{
+ 
+    height:40px ;
+    border: 1px solid red;
+    border-radius: 60px;
+    padding: 20px 32px;
+
+}
+.btn0{
+    all: unset;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btn0:hover{
+    background-color: white;
+    color: red;
+   
+    border: 1px solid red;
+    cursor: pointer;
+}
+/* nav bar section end */
+/* main section start */
+.main{
+    background-image: url(https://ik.imagekit.io/tawihvhch/MERN%20STACK/projects/Foodstore/360_F_297677001_zX7ZzRq8DObUV5IWTHAIhAae6DuiEQh4.jpg?updatedAt=1754318467689);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main h1{
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    padding-top:200px;
+    text-shadow: 2px 2px 4px #202020;
+   
+
+}
+.btn1{
+    all: unset;
+    color: white;
+    background-color: red;
+    margin-left: 35%;
+    padding: 20px 50px;
+    border-radius: 20px;
+
+}
+.btn1:hover{
+    background-color: white;
+    color: red;
+   
+    border: 1px solid red;
+    cursor: pointer;
+}
+/* main section end */
+/* footer start */
+footer{
+    width: 100%;
+    height: auto;
+    background: #252323;
+}
+.container{
+    width: 1140px;
+    height: auto;
+    margin:auto;
+   padding: 40px 0px;
+
+}
+.box{
+    width: 30px;
+    height: auto;
+    
+}
